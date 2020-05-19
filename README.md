@@ -1,10 +1,14 @@
 # CNN Image Classification
-The code builds and trains a Convolutional Neural Network to categorize color images from the CIFAR-10 dataset. You will need to use Jupyter Notebook, Python 2 (or Python 2 Environment), and Keras with the Theano backend. 
+The code builds and trains a Convolutional Neural Network to categorize color images from the CIFAR-10 dataset. You will need to use Jupyter Notebook, Python 2.7 (or Python 2.7 Environment), and Keras with the Theano backend. 
 
 Installation
 ----------------------
 * Clone this repo to your computer.
-* Install the requirements using `pip install -r requirements.txt`.
+* Install the following requirements in your terminal:
+    * `pip2 install -r requirements.txt`
+    * `pip2 install --upgrade --no-deps git+git://github.com/Theano/Theano.git`
+    * `pip2 install keras`
+keras
 * Check that Keras is using the Theano backend.
     * In Python terminal input `import keras`.
     * Response should be: `Using Theano backend`.
