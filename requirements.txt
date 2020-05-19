@@ -1,0 +1,7 @@
+cPickle
+numpy
+matplotlib
+pillow
+h5py
+--upgrade --no-deps git+git://github.com/Theano/Theano.git
+keras
